@@ -1,0 +1,20 @@
+Login Page
+<br><br>
+<label for="username"> Username: </label>
+<input name="username" type="text" [(ngModel)]="signInObj.username">
+<br><br>
+<label for="email"> Email: </label>
+<input name="email" type="email" [(ngModel)]="signInObj.email">
+<br><br>
+<label for="password"> Password: </label>
+<input name="password" type="password" [(ngModel)]="signInObj.password">
+<br><br>
+<button (click)="signIn()">SignIn</button>
+<br><br><br><br>
+<label for="username"> Username: </label>
+<input name="username" type="text" [(ngModel)]="logInObj.username">
+<br><br>
+<label for="password"> Password: </label>
+<input name="password" type="password" [(ngModel)]="logInObj.password">
+<br><br>
+<button (click)="logIn()">LogIn</button>
